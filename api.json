@@ -1,9 +1,9 @@
 {
 	"threads": 4,
-	"coin": "etc",
-	"name": "ethapi",
-	"pplns": 1000,
-	"coin-name":"ETC",
+	"coin": "pirl",
+	"name": "main",
+	"pplns": 5000,
+	"coin-name":"PIRL",
 
 	"api": {
 		"enabled": true,
@@ -26,12 +26,7 @@
 	"upstream": [
 		{
 			"name": "main",
-			"url": "http://127.0.0.1:8545",
-			"timeout": "10s"
-		},
-		{
-			"name": "backup",
-			"url": "http://127.0.0.1:8545",
+			"url": "http://127.0.0.1:6588",
 			"timeout": "10s"
 		}
 	],
@@ -45,13 +40,14 @@
 
 	"exchange": {
 		"enabled": true,
-		"url": "https://api.coinmarketcap.com/v1/ticker/?convert=USD&limit=10",
+		"url": "https://api.coinmarketcap.com/v1/ticker/PIRL/?convert=USD&limit=10",		
 		"timeout": "50s",
-		"refreshInterval": "1800s"
+		"refreshInterval": "5s"
 		},
 
-	"newrelicEnabled": true,
+	"newrelicEnabled": false,
 	"newrelicName": "API",
 	"newrelicKey": "b30cd005408cbe2bcef6e081dc0a7ea2fe6c6a18",
 	"newrelicVerbose": true
 }
+

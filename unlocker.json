@@ -1,20 +1,15 @@
 {
 	"threads": 2,
-	"coin": "etc",
-	"name": "ethunlocker",
-	"pplns": 1000,
-	"coin-name":"ETC",
+	"coin": "pirl",
+	"name": "main",
+	"pplns": 5000,
+	"coin-name":"PIRL",
 
 	"upstreamCheckInterval": "5s",
 	"upstream": [
 		{
 			"name": "main",
-			"url": "http://127.0.0.1:8545",
-			"timeout": "10s"
-		},
-		{
-			"name": "backup",
-			"url": "http://127.0.0.1:8545",
+			"url": "http://127.0.0.1:6588",
 			"timeout": "10s"
 		}
 	],
@@ -28,14 +23,14 @@
 
 	"unlocker": {
 		"enabled": true,
-		"poolFee": 0.5,
-		"poolFeeAddress": "",
+		"poolFee": 0.0,
+		"poolFeeAddress": "0x2dd41073606d4f1404bce6b7fd57c595d8c97485",
 		"donate": false,
 		"depth": 120,
 		"immatureDepth": 20,
 		"keepTxFees": false,
 		"interval": "10m",
-		"daemon": "http://127.0.0.1:8545",
+		"daemon": "http://127.0.0.1:6588",
 		"timeout": "10s"
 	},
 
@@ -51,3 +46,4 @@
 	"newrelicKey": "b30cd005408cbe2bcef6e081dc0a7ea2fe6c6a18",
 	"newrelicVerbose": true
 }
+

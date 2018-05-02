@@ -1,9 +1,9 @@
 {
 	"threads": 4,
-	"coin": "etc",
-	"name": "ethpool_8008",
-	"pplns": 1000,
-	"coin-name":"ETC",
+	"coin": "pirl",
+	"name": "main",
+	"pplns": 5000,
+	"coin-name":"PIRL",
 
 	"proxy": {
 		"enabled": true,
@@ -13,7 +13,7 @@
 		"behindReverseProxy": false,
 		"blockRefreshInterval": "300ms",
 		"stateUpdateInterval": "3s",
-		"difficulty": 2000000000,
+		"difficulty": 9000000000,
 		"hashrateExpiration": "3h",
 
 		"healthCheck": true,
@@ -32,7 +32,7 @@
 			"refreshInterval": "1m",
 
 			"banning": {
-				"enabled": true,
+				"enabled": false,
 				"ipset": "blacklist",
 				"timeout": 1800,
 				"invalidPercent": 30,
@@ -40,7 +40,7 @@
 				"malformedLimit": 5
 			},
 			"limits": {
-				"enabled": true,
+				"enabled": false,
 				"limit": 30,
 				"grace": "5m",
 				"limitJump": 10
@@ -52,12 +52,7 @@
 	"upstream": [
 		{
 			"name": "main",
-			"url": "http://127.0.0.1:8545",
-			"timeout": "10s"
-		},
-		{
-			"name": "backup",
-			"url": "http://127.0.0.1:8545",
+			"url": "http://127.0.0.1:6588",
 			"timeout": "10s"
 		}
 	],
@@ -77,8 +72,9 @@
 		"refreshInterval": "1800s"
 		},
 
-	"newrelicEnabled": true,
+	"newrelicEnabled": false,
 	"newrelicName": "PROXY",
 	"newrelicKey": "b30cd005408cbe2bcef6e081dc0a7ea2fe6c6a18",
 	"newrelicVerbose": true
 }
+
