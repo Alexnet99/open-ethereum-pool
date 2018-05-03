@@ -10,7 +10,7 @@
 		"purgeOnly": false,
 		"purgeInterval": "10m",
 		"listen": "0.0.0.0:8080",
-		"statsCollectInterval": "10s",
+		"statsCollectInterval": "5s",
 		"hashrateWindow": "30m",
 		"hashrateLargeWindow": "12h",
 		"luckWindow": [100, 500, 1000],

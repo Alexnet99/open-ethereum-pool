@@ -19,32 +19,32 @@ module.exports = function(environment) {
 
       COIN: 'PIRL',
       CoinName: 'Pirl',
-      PPLNS: '3000',
+      PPLNS: '5000',
       blocksMature: '60',
 
       // API host and port
-      ApiUrl: '//pirl.altpool.pro/',
+      ApiUrl: '//pirl.automo.io/',
 
       // HTTP mining endpoint
-      HttpHost: 'http://pirl.altpool.pro',
-      HttpPort: 7473,
+      HttpHost: 'http://pirl.automo.io',
+      HttpPort: 8002,
 
       // Stratum mining endpoint
-      StratumHost: 'pirl.altpool.pro',
-      StratumPort: 7475,
+      StratumHost: 'pirl.automo.io',
+      StratumPort: 8002,
 
       // Stratum Nicehash mining endpoint
       StratumHostNH: 'pirl.altpool.pro',
-      StratumPortNH: 7477,
+      StratumPortNH: 8088,
 
       StratumWallet: '0x07aaf3f658bc5e32334f63e39850d73c99b154cb',
 
       // Fee and payout details
-      PoolFee: '0.5%',
-      PayoutThreshold: '1',
+      PoolFee: '0.0%',
+      PayoutThreshold: '0.5',
 
       // For network hashrate (change for your favourite fork)
-      BlockTime: 15.88
+      BlockTime: 13
     }
   };
 
@@ -52,7 +52,7 @@ module.exports = function(environment) {
     /* Override ApiUrl just for development, while you are customizing
       frontend markup and css theme on your workstation.
     */
-    ENV.APP.ApiUrl = 'http://localhost:8098/'
+    ENV.APP.ApiUrl = 'http://pirl.automo.io/'
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;

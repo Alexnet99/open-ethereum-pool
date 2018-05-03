@@ -16,7 +16,7 @@ sleep 10
 
 #pool2b:
 echo starting 2b pool
-screen -LdmS pirl-pool2b ./pirlpool pool2b.json
+screen -LdmS pirl-pool2b ./pirlpool pool4b.json
 
 #pool9b:
 echo starting 9b pool
