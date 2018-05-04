@@ -1,4 +1,11 @@
 .DS_Store
+screenlog.0
+www/bower_components/*
+www/dist/*
+www/node_modules/*
+www/tmp/*
+getz
+.walletpass
 config.json
 testnet.json
 open-ethereum-pool

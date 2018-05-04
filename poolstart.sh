@@ -14,20 +14,20 @@ sleep 10
 
 #pool2b:
 echo starting 2b pool
-screen -LdmS etz-pool2b ./pirlpool pool4b.json
+screen -LdmS etz-pool2b ./open-ethereum-pool pool4b.json
 
 #pool9b:
 echo starting 9b pool
-#screen -LdmS etz-pool9b ./pirlpool pool9b.json
+screen -LdmS etz-pool9b ./open-ethereum-pool pool9b.json
 
 #api:
 echo starting API
-screen -LdmS etz-api ./pirlpool api.json
+screen -LdmS etz-api ./open-ethereum-pool api.json
 
 #unlocker:
 echo starting unlocker
-#screen -LdmS etz-unlocker ./pirlpool unlocker.json
+screen -LdmS etz-unlocker ./open-ethereum-pool unlocker.json
 
 #payout:
 echo starting payout
-screen -LdmS etz-payout ./pirlpool payout.json
+screen -LdmS etz-payout ./open-ethereum-pool payout.json

@@ -23,10 +23,10 @@ module.exports = function(environment) {
       blocksMature: '60',
 
       // API host and port
-      ApiUrl: '//pirl.automo.io/',
+      ApiUrl: '//etz.automo.io/',
 
       // HTTP mining endpoint
-      HttpHost: 'http://c.automo.io',
+      HttpHost: 'http://etz.automo.io',
       HttpPort: 8002,
 
       // Stratum mining endpoint
@@ -34,10 +34,10 @@ module.exports = function(environment) {
       StratumPort: 8002,
 
       // Stratum Nicehash mining endpoint
-      StratumHostNH: 'etz.altpool.pro',
+      StratumHostNH: 'etz.automo.io',
       StratumPortNH: 8088,
 
-      StratumWallet: '0x07aaf3f658bc5e32334f63e39850d73c99b154cb',
+      StratumWallet: "0xd09f86e579a3cc7af2ceb414a65f43df0fed81ac",
 
       // Fee and payout details
       PoolFee: '0.0%',
