@@ -17,8 +17,8 @@ module.exports = function(environment) {
 
     APP: {
 
-      COIN: 'PIRL',
-      CoinName: 'Pirl',
+      COIN: 'etz',
+      CoinName: 'ETZ',
       PPLNS: '5000',
       blocksMature: '60',
 
@@ -26,15 +26,15 @@ module.exports = function(environment) {
       ApiUrl: '//pirl.automo.io/',
 
       // HTTP mining endpoint
-      HttpHost: 'http://pirl.automo.io',
+      HttpHost: 'http://c.automo.io',
       HttpPort: 8002,
 
       // Stratum mining endpoint
-      StratumHost: 'pirl.automo.io',
+      StratumHost: 'etz.automo.io',
       StratumPort: 8002,
 
       // Stratum Nicehash mining endpoint
-      StratumHostNH: 'pirl.altpool.pro',
+      StratumHostNH: 'etz.altpool.pro',
       StratumPortNH: 8088,
 
       StratumWallet: '0x07aaf3f658bc5e32334f63e39850d73c99b154cb',

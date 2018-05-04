@@ -1,0 +1,50 @@
+{
+  "threads": 2,
+  "coin": "etz",
+  "name": "main",
+  "pplns": 5000,
+  "coin-name":"ETZ",
+
+  "upstreamCheckInterval": "5s",
+  "upstream": [
+    {
+      "name": "main",
+      "url": "http://127.0.0.1:6588",
+      "timeout": "10s"
+    }
+  ],
+
+  "redis": {
+    "endpoint": "127.0.0.1:6379",
+    "poolSize": 100,
+    "database": 0,
+    "password": ""
+  },
+
+  "payouts": {
+    "enabled": true,
+    "requirePeers": 25,
+    "interval": "120m",
+    "daemon": "http://127.0.0.1:6588",
+    "timeout": "10s",
+    "address": "0xd09f86e579a3cc7af2ceb414a65f43df0fed81ac",
+    "gas": "21000",
+    "gasPrice": "50000000000",
+    "autoGas": true,
+    "threshold": 500000000,
+    "bgsave": false
+  },
+
+  "exchange": {
+    "enabled": false,
+    "url": "https://api.coinmarketcap.com/v1/ticker/?convert=USD&limit=10",
+    "timeout": "50s",
+    "refreshInterval": "1800s"
+  },
+
+  "newrelicEnabled": false,
+  "newrelicName": "PAYOUT",
+  "newrelicKey": "b30cd005408cbe2bcef6e081dc0a7ea2fe6c6a18",
+  "newrelicVerbose": true
+}
+

@@ -1,9 +1,9 @@
 {
 	"threads": 4,
-	"coin": "pirl",
+	"coin": "etz",
 	"name": "main",
 	"pplns": 5000,
-	"coin-name":"PIRL",
+	"coin-name":"ETZ",
 
 	"proxy": {
 		"enabled": true,
@@ -32,7 +32,7 @@
 			"refreshInterval": "1m",
 
 			"banning": {
-				"enabled": false,
+				"enabled": true,
 				"ipset": "blacklist",
 				"timeout": 1800,
 				"invalidPercent": 30,

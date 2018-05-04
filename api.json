@@ -1,9 +1,9 @@
 {
 	"threads": 4,
-	"coin": "pirl",
+	"coin": "etz",
 	"name": "main",
 	"pplns": 5000,
-	"coin-name":"PIRL",
+	"coin-name":"ETZ",
 
 	"api": {
 		"enabled": true,
@@ -39,7 +39,7 @@
 	},
 
 	"exchange": {
-		"enabled": true,
+		"enabled": false,
 		"url": "https://api.coinmarketcap.com/v1/ticker/PIRL/?convert=USD&limit=10",		
 		"timeout": "50s",
 		"refreshInterval": "5s"

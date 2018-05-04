@@ -1,9 +1,9 @@
 {
 	"threads": 2,
-	"coin": "pirl",
+	"coin": "etz",
 	"name": "main",
 	"pplns": 5000,
-	"coin-name":"PIRL",
+	"coin-name":"ETZ",
 
 	"upstreamCheckInterval": "5s",
 	"upstream": [
@@ -24,7 +24,7 @@
 	"unlocker": {
 		"enabled": true,
 		"poolFee": 0.0,
-		"poolFeeAddress": "0x2dd41073606d4f1404bce6b7fd57c595d8c97485",
+		"poolFeeAddress": "0xd09f86e579a3cc7af2ceb414a65f43df0fed81ac",
 		"donate": false,
 		"depth": 120,
 		"immatureDepth": 20,
