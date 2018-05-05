@@ -38,7 +38,7 @@
 			"refreshInterval": "1m",
 
 			"banning": {
-				"enabled": false,
+				"enabled": true,
 				"ipset": "blacklist",
 				"timeout": 1800,
 				"invalidPercent": 30,

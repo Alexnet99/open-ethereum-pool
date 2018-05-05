@@ -37,8 +37,8 @@
                                     class="m-menu__arrow m-menu__arrow--adjust"></span>
                                 <ul class="m-menu__subnav">
                                     <li class="m-menu__item " data-redirect="true" aria-haspopup="true">
-                                        <a href="http://pirl.altpool.pro/" class="m-menu__link" target="_blank">
-                                            <span class="m-menu__link-text"><img src="/img/coin-pirl.png" class="align-content-center" style="width: 100%; height: auto; max-height: 30px;max-width: 30px;">&nbsp;&nbsp;&nbsp;PIRL Pool (PIRL)</span>
+                                        <a href="http://etz.altpool.pro/" class="m-menu__link" target="_blank">
+                                            <span class="m-menu__link-text"><img src="/img/coin-etz.png" class="align-content-center" style="width: 100%; height: auto; max-height: 30px;max-width: 30px;">&nbsp;&nbsp;&nbsp;ETZ Pool (Ether Zero)</span>
                                         </a>
                                     </li>
                                     <li class="m-menu__item " data-redirect="true" aria-haspopup="true">
@@ -73,17 +73,7 @@
                                 <span class="m-menu__link-text">Miners <span class="m-badge m-badge--info m-badge--wide m-badge--rounded">{{model.minersTotal}}</span></span>
                             {{/link-to}}
                         </li>
-                        <li class="m-menu__item m-menu__item--submenu m-menu__item--rel" data-redirect="true" aria-haspopup="true">
-                            <a href="javascript:void(0);" class="m-menu__link m-menu__toggle" data-toggle="m-tooltip" data-trigger="focus" title="{{config.COIN}} Current Price">
-                                <i class="m-menu__link-icon flaticon-analytics m--font-metal"></i>
-                                {{#if isPercentAboveZero}}<span class="m-menu__link-text m--font-success">
-                                    ${{format-number model.exchangedata.price_usd maximumFractionDigits='2'}} <i class="fa fa-caret-up"></i> (+{{model.exchangedata.percent_change_24h}}%)
-                                </span>
-                                {{else}}
-                                <span class="m-menu__link-text m--font-danger">
-                                </span>{{/if}}
-                            </a>
-                        </li>
+
                         <li class="m-menu__item m-menu__item--submenu m-menu__item--rel" data-redirect="true" aria-haspopup="true">
                             <a href="https://discord.gg/h5xgPDZ" target="_blank" class="m-menu__link m-menu__toggle" title="Join our Discord Channel">
                                 <i style="color: #0088cc" class="m-menu__link-icon fab fa-discord"></i>
