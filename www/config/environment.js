@@ -36,8 +36,9 @@ module.exports = function(environment) {
       // Stratum Nicehash mining endpoint
       StratumHostNH: 'etz.automo.io',
       StratumPortNH: 8088,
-
+        
       StratumWallet: "0xd09f86e579a3cc7af2ceb414a65f43df0fed81ac",
+
 
       // Fee and payout details
       PoolFee: '0.0%',
@@ -52,7 +53,7 @@ module.exports = function(environment) {
     /* Override ApiUrl just for development, while you are customizing
       frontend markup and css theme on your workstation.
     */
-    ENV.APP.ApiUrl = 'http://pirl.automo.io/'
+    ENV.APP.ApiUrl = 'http://etz.automo.io/'
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
