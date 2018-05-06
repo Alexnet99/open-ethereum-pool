@@ -39,7 +39,7 @@
 	},
 
 	"exchange": {
-		"enabled": true,
+		"enabled": false,
 		"url": "https://api.coinmarketcap.com/v1/ticker/PIRL/?convert=USD&limit=10",		
 		"timeout": "50s",
 		"refreshInterval": "5s"

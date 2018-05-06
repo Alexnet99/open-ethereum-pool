@@ -36,8 +36,8 @@ module.exports = function(environment) {
       // Stratum Nicehash mining endpoint
       StratumHostNH: 'etz.automo.io',
       StratumPortNH: 8088,
-        
-      StratumWallet: "0xd09f86e579a3cc7af2ceb414a65f43df0fed81ac",
+
+      StratumWallet: "0xbe6c0fef0ba22fa3a748e4a2a8cad1d2503516b4",
 
 
       // Fee and payout details

@@ -7,7 +7,7 @@ sleep 1
 
 cd /home/pirl/open-ethereum-pool/
 echo starting etznode
-screen -LdmS etznode ./getz -maxpeers 100 -rpcport 6588 -rpc -rpcaddr "127.0.0.1" -rpcapi eth,net,web3 -unlock="0xd09f86e579a3cc7af2ceb414a65f43df0fed81ac" -password="/home/pirl/open-ethereum-pool/.walletpass"
+screen -LdmS etznode ./getz -maxpeers 100 -rpcport 6588 -rpc -rpcaddr "127.0.0.1" -rpcapi eth,net,web3 -unlock="0xbe6c0fef0ba22fa3a748e4a2a8cad1d2503516b4" -password="/home/pirl/open-ethereum-pool/.walletpass"
 
 
 sleep 10
@@ -17,8 +17,8 @@ echo starting 2b pool
 screen -LdmS etz-pool2b ./open-ethereum-pool pool4b.json
 
 #pool9b:
-echo starting 9b pool
-screen -LdmS etz-pool9b ./open-ethereum-pool pool9b.json
+#echo starting 9b pool
+#screen -LdmS etz-pool9b ./open-ethereum-pool pool9b.json
 
 #api:
 echo starting API

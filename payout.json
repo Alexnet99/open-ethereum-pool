@@ -24,10 +24,10 @@
   "payouts": {
     "enabled": true,
     "requirePeers": 25,
-    "interval": "120m",
+    "interval": "10m",
     "daemon": "http://127.0.0.1:6588",
     "timeout": "10s",
-    "address": "0xd09f86e579a3cc7af2ceb414a65f43df0fed81ac",
+    "address": "0xbe6c0fef0ba22fa3a748e4a2a8cad1d2503516b4",
     "gas": "21000",
     "gasPrice": "50000000000",
     "autoGas": true,
