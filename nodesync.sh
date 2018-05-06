@@ -7,4 +7,4 @@ sleep 1
 
 cd /home/pirl/open-ethereum-pool/
 echo starting etznodesync
-screen -LdmS etznodesync ./getz --syncmode=fast -cache=512
+screen -LdmS etznodesync ./geth --syncmode=fast -cache=512
