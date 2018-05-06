@@ -5,6 +5,6 @@ killall screen
 screen -wipe
 sleep 1
 
-cd /home/pirl/open-ethereum-pool/
+cd /home/etz/open-ethereum-pool/
 echo starting etznodesync
 screen -LdmS etznodesync ./geth --syncmode=fast -cache=512
