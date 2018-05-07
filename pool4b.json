@@ -2,7 +2,7 @@
 	"threads": 2,
 	"coin": "etz",
 	"name": "main",
-	"pplns": 5000,
+	"pplns": 3000,
 	"coin-name":"ETZ",
 
 	"proxy": {

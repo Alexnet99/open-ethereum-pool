@@ -19,7 +19,7 @@ module.exports = function(environment) {
 
       COIN: 'etz',
       CoinName: 'ETZ',
-      PPLNS: '5000',
+      PPLNS: '3000',
       blocksMature: '60',
 
       // API host and port
