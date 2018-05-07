@@ -37,7 +37,7 @@ module.exports = function(environment) {
       StratumHostNH: 'etz.automo.io',
       StratumPortNH: 8088,
 
-      StratumWallet: "0xbe6c0fef0ba22fa3a748e4a2a8cad1d2503516b4",
+      StratumWallet: "0x1d9a77f83497d6a944872128a8f8ea967966af17",
 
 
       // Fee and payout details
